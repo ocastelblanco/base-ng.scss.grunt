@@ -58,7 +58,10 @@ module.exports = function(grunt) {
                     host: "",
                     dest: "/",
                     port: 21
-                }
+                },
+                */
+                //files: [{expand: true, cwd: 'dist', src: '**/*'}]
+                /*
             }
         }*/
     });
