@@ -65,7 +65,7 @@ Luego de iniciada la aplicación, encontrará los siguientes archivos:
 |   |   |   ├── angular.aria.min.js (ngAria)
 |   |   |   ├── angular.route.min.js (ngRoute)
 |   |   ├── views/ (carpeta de vistas; todas deberían crearse y modificarse en esta carpeta)
-|   |   |   ├── contenedor.html (Vista incial por defecto. Debe modificarse acá mismo)
+|   |       ├── contenedor.html (Vista incial por defecto. Debe modificarse acá mismo)
 |   ├── favicon.ico (favicon de 16px x 16px. Debe ser reemplazado)
 |   ├── index.html (HTML principal. Todos los enlaces a nuevos CSS o JS deben hacerse acá)
 |   ├── modules.min.js (módulo principal y controladores AngularJS. Se crea automáticamente)
@@ -80,9 +80,9 @@ Luego de iniciada la aplicación, encontrará los siguientes archivos:
 |   |   |   ├── app/
 |   |   |   |   ├── _app.scss (archivo principal de hoja de estilo en formato SCSS)
 |   |   ├── app.scss (archivo principal que incluye los estilos aplicados en el sitio)
-|   ├── gruntfile.js (archivo de comandos Grunt. Debe modificarse si se incluyen nuevos módulos o fuentes SASS)
-|   ├── package.json (archivo de descripción y dependencias para `npm`)
-|   ├── README.md (archivo de presentación del proyecto)
+├── gruntfile.js (archivo de comandos Grunt. Debe modificarse si se incluyen nuevos módulos o fuentes SASS)
+├── package.json (archivo de descripción y dependencias para `npm`)
+├── README.md (archivo de presentación del proyecto)
 ```
 
 ## Construcción de la aplicación
