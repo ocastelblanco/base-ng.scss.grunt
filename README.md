@@ -51,40 +51,39 @@ grunt actualizar
 
 Luego de iniciada la aplicación, encontrará los siguientes archivos:
 
-.
-
-+-- dist (carpeta de publicación final)
-
-|   +-- assets
-|   |   +-- css
-|   |   |   +-- app.min.css (CSS final, creado automáticamente)
-|   |   |   +-- app.min.css.map (creado automáticamente)
-|   |   +-- img
-|   |   |   +-- favicon.png (favicon de 128px x 128px. Debe ser reemplazado)
-|   |   +-- js
-|   |   |   +-- angular.min.js (AngularJS)
-|   |   |   +-- angular.animate.min.js (ngAnimate)
-|   |   |   +-- angular.aria.min.js (ngAria)
-|   |   |   +-- angular.route.min.js (ngRoute)
-|   |   +-- views (carpeta de vistas; todas deberían crearse y modificarse en esta carpeta)
-|   |   |   +-- contenedor.html (Vista incial por defecto. Debe modificarse acá mismo)
-|   +-- favicon.ico (favicon de 16px x 16px. Debe ser reemplazado)
-|   +-- index.html (HTML principal. Todos los enlaces a nuevos CSS o JS deben hacerse acá)
-|   +-- modules.min.js (módulo principal y controladores AngularJS. Se crea automáticamente)
-|   +-- route.min.js (enrutador principal. Se crea automáticamente)
-|   +-- node_modules (carpeta que crea `npm` para almacenar los módulos utilizados. No debe ser modificada)
-|   |   +-- ...
-|   +-- src (carpeta de archivos JS y SASS fuente)
-|   |   +-- js
-|   |   |   +-- modules.js (módulo y controladores AngularJS. Deben ser modificados acá)
-|   |   |   +-- route.js (enrutador principal. Debe ser modificado acá)
-|   |   +-- sass
-|   |   +-- app
-|   |   |   +-- _app.scss (archivo principal de hoja de estilo en formato SCSS)
-|   |   +-- app.scss (archivo principal que incluye los estilos aplicados en el sitio)
-|   +-- gruntfile.js (archivo de comandos Grunt. Debe modificarse si se incluyen nuevos módulos o fuentes SASS)
-|   +-- package.json (archivo de descripción y dependencias para `npm`)
-|   +-- README.md (archivo de presentación del proyecto)
+```
+├── dist/ (carpeta de publicación final)
+|   ├── assets/
+|   |   ├── css/
+|   |   |   ├── app.min.css (CSS final, creado automáticamente)
+|   |   |   ├── app.min.css.map (creado automáticamente)
+|   |   ├── img/
+|   |   |   ├── favicon.png (favicon de 128px x 128px. Debe ser reemplazado)
+|   |   ├── js/
+|   |   |   ├── angular.min.js (AngularJS)
+|   |   |   ├── angular.animate.min.js (ngAnimate)
+|   |   |   ├── angular.aria.min.js (ngAria)
+|   |   |   ├── angular.route.min.js (ngRoute)
+|   |   ├── views/ (carpeta de vistas; todas deberían crearse y modificarse en esta carpeta)
+|   |   |   ├── contenedor.html (Vista incial por defecto. Debe modificarse acá mismo)
+|   ├── favicon.ico (favicon de 16px x 16px. Debe ser reemplazado)
+|   ├── index.html (HTML principal. Todos los enlaces a nuevos CSS o JS deben hacerse acá)
+|   ├── modules.min.js (módulo principal y controladores AngularJS. Se crea automáticamente)
+|   ├── route.min.js (enrutador principal. Se crea automáticamente)
+|   ├── node_modules/ (carpeta que crea `npm` para almacenar los módulos utilizados. No debe ser modificada)
+|   |   ├── ...
+|   ├── src/ (carpeta de archivos JS y SASS fuente)
+|   |   ├── js/
+|   |   |   ├── modules.js (módulo y controladores AngularJS. Deben ser modificados acá)
+|   |   |   ├── route.js (enrutador principal. Debe ser modificado acá)
+|   |   ├── sass/
+|   |   |   ├── app/
+|   |   |   |   ├── _app.scss (archivo principal de hoja de estilo en formato SCSS)
+|   |   ├── app.scss (archivo principal que incluye los estilos aplicados en el sitio)
+|   ├── gruntfile.js (archivo de comandos Grunt. Debe modificarse si se incluyen nuevos módulos o fuentes SASS)
+|   ├── package.json (archivo de descripción y dependencias para `npm`)
+|   ├── README.md (archivo de presentación del proyecto)
+```
 
 ## Construcción de la aplicación
 
