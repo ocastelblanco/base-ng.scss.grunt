@@ -9,5 +9,5 @@ Grunt: incluye los plugins Copy, Sass, Uglify, Watch y FTP-Push. Para incluir ot
 
 1. Clone este repositorio
 ```bash
-git clone https://github.com/ocastelblanco/base-ng.scss.grunt.git /
+git clone https://github.com/ocastelblanco/base-ng.scss.grunt.git ./
 ```
