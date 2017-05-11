@@ -92,3 +92,11 @@ Los archivos que se deben publicar están alojados en la carpeta `/dist`. En la 
 Para iniciar la construcción de la aplicación, lance el sistema de automatización de tareas con el comando `grunt`. El sistema iniciará el seguimiento de los archivos presentes en las carpetas `/src/sass` y `/src/js` de tal manera cualquier cambio que realice sobre los mismos se minimizará y guardará automáticamente en las carpetas correspondientes de `/dist`.
 
 La vista que se carga por defecto es la `/dist/views/contenedor.html` que, automáticamente, llama al controlador `'contenedor'`en `modules.js`.
+
+## Extender la aplicación
+
+[Incluir módulos de AngularJS]### Incluir módulos de AngularJS
+`En construcción`
+
+[Incluir plugins de Grunt]### Incluir plugins de Grunt
+`En construcción`
