@@ -73,13 +73,13 @@ Luego de iniciada la aplicación, encontrará los siguientes archivos:
 |   ├── node_modules/ (carpeta que crea `npm` para almacenar los módulos utilizados. No debe ser modificada)
 |   |   ├── ...
 |   ├── src/ (carpeta de archivos JS y SASS fuente)
-|   |   ├── js/
-|   |   |   ├── modules.js (módulo y controladores AngularJS. Deben ser modificados acá)
-|   |   |   ├── route.js (enrutador principal. Debe ser modificado acá)
-|   |   ├── sass/
-|   |   |   ├── app/
-|   |   |   |   ├── _app.scss (archivo principal de hoja de estilo en formato SCSS)
-|   |   ├── app.scss (archivo principal que incluye los estilos aplicados en el sitio)
+|       ├── js/
+|       |   ├── modules.js (módulo y controladores AngularJS. Deben ser modificados acá)
+|       |   ├── route.js (enrutador principal. Debe ser modificado acá)
+|       ├── sass/
+|       |   ├── app/
+|       |       ├── _app.scss (archivo principal de hoja de estilo en formato SCSS)
+|       ├── app.scss (archivo principal que incluye los estilos aplicados en el sitio)
 ├── gruntfile.js (archivo de comandos Grunt. Debe modificarse si se incluyen nuevos módulos o fuentes SASS)
 ├── package.json (archivo de descripción y dependencias para `npm`)
 ├── README.md (archivo de presentación del proyecto)
