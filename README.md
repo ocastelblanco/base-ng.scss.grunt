@@ -52,7 +52,9 @@ grunt actualizar
 Luego de iniciada la aplicación, encontrará los siguientes archivos:
 
 .
+
 +-- dist (carpeta de publicación final)
+
 |   +-- assets
 |   |   +-- css
 |   |   |   +-- app.min.css (CSS final, creado automáticamente)
