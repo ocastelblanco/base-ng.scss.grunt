@@ -1,9 +1,9 @@
 # Proyecto AngularJS + SASS + Grunt
 Bases de inicio de un proyecto web basado en AngularJS (v1.6.4), SASS y Grunt (v.1.0.1).
 
-AngularJS: incluye los módulos ngAnimate, ngAria y ngRoute. Para incluir otros módulos, consulte [Incluir módulos de AngularJS].
+AngularJS: incluye los módulos ngAnimate, ngAria y ngRoute. Para incluir otros módulos, consulte [Incluir módulos de AngularJS][1].
 
-Grunt: incluye los plugins Copy, Sass, Uglify, Watch y FTP-Push. Para incluir otros plugins, consulte [Incluir plugins de Grunt].
+Grunt: incluye los plugins Copy, Sass, Uglify, Watch y FTP-Push. Para incluir otros plugins, consulte [Incluir plugins de Grunt][2].
 
 ## Pre-requisitos
 
@@ -95,8 +95,8 @@ La vista que se carga por defecto es la `/dist/views/contenedor.html` que, autom
 
 ## Extender la aplicación
 
-[Incluir módulos de AngularJS]### Incluir módulos de AngularJS
+[1]:### Incluir módulos de AngularJS
 `En construcción`
 
-[Incluir plugins de Grunt]### Incluir plugins de Grunt
+[2]:### Incluir plugins de Grunt
 `En construcción`
